@@ -27,7 +27,7 @@ rockButton.addEventListener("click", () => playRound("rock"));
 paperButton.addEventListener("click", () => playRound("paper"));
 scissorsButton.addEventListener("click", () => playRound("scissors"));
 
-function playRound(playerChoice) {
+async function playRound(playerChoice) {
 
     const computerChoice = computerPlay();
 
@@ -43,11 +43,10 @@ function playRound(playerChoice) {
     computerScoreElement.innerText = `Computer Score: ${computerScore}`;
 
     if (computerScore === 1) {
-        postScore({ name: userName.innerText, score: playerScore });
-        setTimeout(() => {
-
+        postScore({ name: userName.innerText, score: playerScore }).then(()=>{
+            getHighscores();
             restart();
-        }, 100);
+        });
     }
 }
 
