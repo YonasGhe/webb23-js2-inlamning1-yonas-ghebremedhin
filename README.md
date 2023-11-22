@@ -4,9 +4,6 @@
 
 Welcome to the Rock, Paper, Scissors game! This project is a simple web-based game where you can play the classic game of Rock, Paper, Scissors against a computer opponent. Additionally, the project includes a highscore leaderboard to keep track of the top players.
 
-## Demo
-[Insert link to the live demo of your game here]
-
 ## Features
 - Play Rock, Paper, Scissors against a computer opponent.
 - Keep track of your score during the game.
@@ -27,3 +24,5 @@ Compete with other players to make it to the top of the highscore list. The top 
 Contributions are welcome! If you have ideas for improvements, bug fixes, or new features, please feel free to open an issue or create a pull request. Make sure to follow the project's code of conduct.
 
 ## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
