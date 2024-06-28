@@ -14,8 +14,7 @@ Welcome to the Rock, Paper, Scissors game! This project is a simple web-based ga
 1. Start by entering your name to personalize your gaming experience.
 2. Choose either Rock, Paper, or Scissors by clicking the corresponding button.
 3. See the result of each round and watch your score change.
-4. The game ends when either you or the computer reaches a specified score limit (e.g., 5 points).
-5. If you win, you'll be congratulated. If the computer wins, the game restarts, and your score is submitted to the highscore list.
+4. If you win, you'll be congratulated. If the computer wins, the game restarts, and your score is submitted to the highscore list.
 
 ## Highscore
 Compete with other players to make it to the top of the highscore list. The top 5 players with the highest scores are displayed. Can you become the ultimate Rock, Paper, Scissors champion?
